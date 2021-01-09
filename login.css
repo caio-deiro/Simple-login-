@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1c0b19;
+    font-family:  'open sans';
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.conteiner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    height: 500px;
+    width: 500px;       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #02c3bd;
+    border-radius: 6px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column h1{
+    margin-bottom: 80px;
+    align-items: flex-start;
+   
+}
+
+.botoes{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    
+}
+.btn button {
+    border: none;
+    border-radius: 6px;
+    padding: 0.3rem;
+    margin-right: 15px;
+    
+}
+
+.btn2 button{
+    border: none;
+    border-radius: 6px;
+    padding: 0.3rem;
+    margin-right: 15px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid yellow;
+    
+}
+
+.column button{
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem;
+}
+
+.column button:hover{
+    background-color: turquoise;
+}
+
+;.column p{
+    margin-top: 15px;
+
+}
+
+.column a:hover{
+    color: yellow;
+    
+}
